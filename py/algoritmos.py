@@ -1,3 +1,5 @@
+# -BUSCA-
+
 # 1 linear
 
 
@@ -176,6 +178,8 @@ def busca_binaria(lista, item):
 lista = [4, 5, 6, 7]
 busca = busca_binaria(lista, 5)
 print(f"O item foi encontrado em busca {busca} binaria")
+
+# -ORDENAÇÃO-
 
 # 1 bubblesort
 
@@ -440,6 +444,10 @@ def insertion_sort(lista):
 lista = [29, 34, 27, 24, 37]  # aguenta 200
 insertion_sort(lista)
 print("A lista é 5 insertionsort", lista)
+
+# mergesort
+
+# quicksort
 
 # formula do bubblesort = 0, variavel - i - 1, for, if, return
 # formula do selectionsort = i + 1, variavel, for, if, return
