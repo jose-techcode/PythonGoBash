@@ -114,8 +114,13 @@ done
 # -Listas (estrutura de dados)-
 
 lista=("tomate" "cebola" "alface")
-echo "${lista[@]}"
+echo "${lista[@]}" # @ representa todos os vetores
 echo "${lista[0]}"
+
+lista0=(1 2 3)
+echo "${lista0[@]}" # @ representa todos os vetores
+soma_vetor=$(( lista0[0] + lista0[1] ))
+echo "$soma_vetor"
 
 # -Funções-
 
