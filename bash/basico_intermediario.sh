@@ -119,8 +119,24 @@ echo "${lista[0]}"
 
 lista0=(1 2 3)
 echo "${lista0[@]}" # @ representa todos os vetores
+
+# Soma
+
 soma_vetor=$(( lista0[0] + lista0[1] ))
 echo "$soma_vetor"
+
+# Subtração
+
+subtracao_vetor=$(( lista0[0] - lista0[1] ))
+echo "$subtracao_vetor"
+
+# Multiplicação
+
+multiplicacao_vetor=$(( lista0[0] * lista0[1] ))
+echo "$multiplicacao_vetor"
+
+divisao_vetor=$(( lista0[0] + lista0[1 ]))
+echo "$divisao_vetor"
 
 # -Funções-
 
