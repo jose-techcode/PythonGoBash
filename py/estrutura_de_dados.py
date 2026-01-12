@@ -17,7 +17,3 @@ print(conjunto)
 
 tupla = (1, 2, 3)
 print(tupla[0])
-
-# Fila
-
-# Pilha
