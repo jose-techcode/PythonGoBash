@@ -445,10 +445,6 @@ lista = [29, 34, 27, 24, 37]  # aguenta 200
 insertion_sort(lista)
 print("A lista é 5 insertionsort", lista)
 
-# mergesort
-
-# quicksort
-
 # formula do bubblesort = 0, variavel - i - 1, for, if, return
 # formula do selectionsort = i + 1, variavel, for, if, return
 # formula do insertionsort = j = i - 1, variaveis, for e while.
