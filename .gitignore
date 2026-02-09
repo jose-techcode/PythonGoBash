@@ -33,15 +33,6 @@ Thumbs.db
 *.db
 *.sock
 
-# JSON files
-
-warns.json
-log_channels.json
-
-# YAML files
-
-*.yaml
-
 # Others
 
 *.bak
