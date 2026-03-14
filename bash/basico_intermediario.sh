@@ -175,7 +175,42 @@ divisao() {
     echo "Resultado: $resultado"
 }
 
+par_impar() {
+    local valor=$1
+    shift
+    
+    if [[ $valor -eq 0 ]]; then
+    echo "0 não é par"
+    fi
+    
+    if (( valor % 2 == 0 )); then
+    echo "$valor é par"
+    else
+    echo "$valor é ímpar"
+    fi
+
+}
+
+primo_composto() {
+    local valor=$1
+    shift
+
+    if [[ $valor -le 1 ]]; then
+    echo "0 e 1 não contam"
+    fi
+
+    for (( i = 2; i * i <= valor; i++ )) do
+    if (( valor % i == 0 )); then
+    echo "$valor é composto"
+    return
+    fi
+    done
+    echo "$valor é primo"
+}
+
 soma 10 10
 subtracao 10 5
 multiplicacao 5 5
 divisao 100 10
+par_impar 4
+primo_composto 2
